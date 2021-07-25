@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="principal">
+        <h1>Cadastre-se para acessar o sistema</h1>
+        <form action="#" method="post">
+            <div class="larguratotal">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+            </div>   
+            <div class="largurametade">
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+            </div>   
+            <div class="largurametade">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o seu sobrenome">
+            </div>  
+            <div class="largurametade">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite a seu senha">
+            </div>  
+            <div class="largurametade">
+                <label for="confirmasenha">Confirmação da senha</label>
+                <input type="password" name="confirmasenha" id="confirmasenha" placeholder="Digite novamente a sua senha">
+            </div>  
+            <div class="larguratotal">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Eu li e aceito os<a href="#"> termos de uso</a></label>
+            </div> 
+            <div class="larguratotal">
+                <input type="submit" id="submit" value="Registrar">
+            </div> 
+        </form>
+        <p id="erros"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

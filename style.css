@@ -1,0 +1,36 @@
+*{
+    padding: 0pt;
+    margin: 0pt;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    background-image: url('img/Viaduto-do-Chá.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{
+    background-color: aliceblue;
+    margin: 5vh auto;
+    width: 500px;
+    padding: 25px;
+    border-radius: 10pt;
+}
+h1{
+    font-size: 19pt;
+}
+#larguratotal{
+    flex: 1 1 100%;
+}
+#largurametade{
+    width: 45%;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+input,label{
+    width: 100%;
+}
