@@ -28,12 +28,14 @@ input{
 }
 .largurametade{
     width: 45%;
-    margin-top: 30pt;
+    height: 25%;
+    margin-top: 25pt;
     margin-right: 5%;
 }
 .larguratotal{
     width: 100%;
     margin-top: 25pt;
+    height: 25%;
 }
 
 form{
@@ -68,4 +70,9 @@ label{
 }
 a{
     color: rgb(233, 39, 104);
+}
+p{
+    font-size: 10pt;
+    margin-top: 5pt;
+    color: red;
 }
